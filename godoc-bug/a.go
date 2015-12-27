@@ -5,10 +5,10 @@ import (
 	. "go/ast"
 )
 
-func X() Node {
+func X(Node) Node {
 	return nil
 }
 
-func Y() ast.Node {
+func Y(Node) ast.Node {
 	return nil
 }
